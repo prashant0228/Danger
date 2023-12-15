@@ -1,0 +1,15 @@
+/* Add this CSS in your stylesheet or in your component */
+
+.items-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #navbar-sticky {
+    max-width: 1200px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+  }
+  
+  /* Rest of your existing styles */
+  

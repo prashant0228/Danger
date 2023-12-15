@@ -1,0 +1,60 @@
+/* styles.css */
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+  }
+  
+  .heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .card {
+    color: black;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card:hover {
+    background-color: #000000;
+    color: white; /* Change background color on hover */
+  }
+  
+  /* // YourComponent.css */
+
+.card {
+  /* Add your existing styles for the card */
+  padding: 10px;
+  border: 1px solid #000000;
+  transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+
+
+  .card p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Adjustments for small screens */
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 100%;
+      padding: 1.5rem;
+    }
+  }
+  
